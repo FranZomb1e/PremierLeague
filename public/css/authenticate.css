@@ -1,0 +1,117 @@
+body {
+  background-color: #f2f3f4;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  margin-bottom: 20vw;
+}
+head{
+  background-image:url("../images/premier-league-logo.png")
+}
+#logo {
+  display: block;
+  margin-top: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 40%;
+}
+
+
+
+#signup:hover {
+  box-shadow: 0 0.5vw 1.5vw 0 rgba(0, 0, 0, 0.24), 0 1vw 3vw 0 rgba(0, 0, 0, 0.19);
+}
+
+#login:hover {
+  box-shadow: 0 0.5vw 1.5vw 0 rgba(0, 0, 0, 0.24), 0 1vw 3vw 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#signup{
+  width: 30%;
+  background-color: #60afff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2vw;
+  font-size: 2vw;
+}
+#login{
+  width: 30%;
+  background-color: #60afff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*#loginForm{
+  background-color: #ffffff;
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-color: #a1a2a3;
+}
+
+#signupForm{
+  background-color: #ffffff;
+  width: 30%;
+  height:10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-color:#a1a2a3;
+}*/
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+button {
+  margin-top: 5px;
+  border: none;
+  text-align: center;
+  width: 30vw;
+  height: 6vw;
+  opacity: 1;
+  background-color: #498dfc;
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 3vw;
+}
+
+
+
+
+#loginText{
+  color: #3f9eff;
+}
+
+#signupText{
+  color: #3f9eff;
+}

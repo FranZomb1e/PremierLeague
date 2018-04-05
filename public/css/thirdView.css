@@ -1,0 +1,126 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  margin-bottom: 20vw;
+}
+
+p {
+  color: black;
+  opacity: 0.65;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 5vw;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#logo {
+  display: block;
+  margin-top: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 40%;
+}
+
+#favoriteTable {
+  position: relative;
+  top: 5vw;
+  margin: auto;
+  background-color: white;
+  width: 50vw;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+#inputname {
+  font-size: 5vw;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #ffa042;
+  width: 24vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4vw;
+}
+
+input[type=text] {
+  font-size: 20px;
+  width: 24vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  border: none;
+  text-align: center;
+  width: 24vw;
+  height: 6vw;
+  opacity: 1;
+  background-color: black;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 3vw;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 0.5vw 1.5vw 0 rgba(0, 0, 0, 0.24), 0 1vw 3vw 0 rgba(0, 0, 0, 0.19);
+}
+button:hover{
+  box-shadow: 0 0.5vw 1.5vw 0 rgba(0, 0, 0, 0.24), 0 1vw 3vw 0 rgba(0, 0, 0, 0.19);
+}
+
+#resetButton {
+  border: none;
+  text-align: center;
+  width: 24vw;
+  height: 5vw;
+  margin-bottom:1vw;
+  opacity: 0.8;
+  background-color: rgb(22, 153, 249);
+  color: white;
+  font-size: 2vw;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 3vw;
+}
+
+button {
+  border: none;
+  text-align: center;
+  width: 4vw;
+  height: 2.5vw;
+  opacity: 0.8;
+  background-color: rgb(22, 153, 249);
+  color: white;
+  font-size: 2vw;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 3vw;
+}

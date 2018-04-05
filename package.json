@@ -1,0 +1,26 @@
+{
+  "name": "assignment-3-saltyfish",
+  "version": "1.0.0",
+  "description": "This is the source code of assginment2",
+  "main": "PLeague.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csc309-18s/assignment-3-saltyfish.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csc309-18s/assignment-3-saltyfish/issues"
+  },
+  "homepage": "https://github.com/csc309-18s/assignment-3-saltyfish#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.4"
+  }
+}
